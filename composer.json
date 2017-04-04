@@ -1,0 +1,24 @@
+{
+    "name": "agilesdesign/myrtle-core-dock-addresses",
+    "description": "Core Addresses Dock for Myrtle WMS",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Justin Seliga",
+            "email": "jseliga@agilesdesign.com"
+        }
+    ],
+    "require": {
+        "agilesdesign/flasher": "1.0.0-alpha.1",
+        "agilesdesign/myrtle-docks": "dev-master"
+    },
+    "autoload": {
+        "classmap": [
+            "src/database",
+            "src/Myrtle/Core/Docks"
+        ],
+        "psr-4": {
+            "Myrtle\\Core\\Addresses\\": "src/Addresses"
+        }
+    }
+}
