@@ -5,7 +5,7 @@ namespace Myrtle\Core\Addresses\Models;
 use Laravel\Scout\Searchable;
 use Illuminate\Database\Eloquent\Model;
 use Repertoire\Models\Traits\CanBeSearched;
-use Myrtle\Permissions\Models\Traits\CanView;
+use Myrtle\Core\Permissions\Models\Traits\CanView;
 
 class AddressType extends Model
 {

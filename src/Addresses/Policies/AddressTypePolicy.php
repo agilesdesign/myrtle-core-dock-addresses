@@ -3,7 +3,7 @@
 namespace Myrtle\Core\Addresses\Policies;
 
 use App\User;
-use Myrtle\Docks\AddressesDock;
+use Myrtle\Core\Docks\AddressesDock;
 use Illuminate\Support\Facades\Gate;
 use Myrtle\Addresses\Models\AddressType;
 use Illuminate\Auth\Access\HandlesAuthorization;
