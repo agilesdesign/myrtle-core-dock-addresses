@@ -20,5 +20,8 @@
         "psr-4": {
             "Myrtle\\Core\\Addresses\\": "src/Addresses"
         }
+    },
+    "config": {
+        "minimum-stability": "dev"
     }
 }
