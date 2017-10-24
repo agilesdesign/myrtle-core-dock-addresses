@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "agilesdesign/flasher": "1.0.0-alpha.1",
+        "agilesdesign/flasher": "dev-master",
         "agilesdesign/myrtle-core-dock-docks": "dev-master"
     },
     "autoload": {
